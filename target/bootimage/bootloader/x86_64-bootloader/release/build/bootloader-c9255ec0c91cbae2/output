@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=/home/krfcm2/code/miya/Cargo.toml
-cargo:rustc-link-search=native=/home/krfcm2/code/miya/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-c9255ec0c91cbae2/out
-cargo:rustc-link-lib=static=kernel_bin-miya
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/home/krfcm2/code/miya/target/x86_64-miya_os/debug/miya
-cargo:rerun-if-changed=build.rs
